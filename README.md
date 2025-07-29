@@ -14,15 +14,23 @@ Conforme pode ser verificado abaixo, a API foi desenvolvida utilizando Clean Cod
 
 <img width="465" height="817" alt="image" src="https://github.com/user-attachments/assets/07836f74-1220-4eaf-b2c3-995c57866cd1" />
 
-
 <br />
 
 ## Pré-Requisitos
 
 Antes de executar este projeto, os seguintes itens deverão estar instalados no computador:
 
-* Docker
+* Docker instalado no computador onde será executado
+* Para fins de praticidade, recomendo utilizar o Visual Studio, 2022 por exemplo, para a execução do projeto
 
 <br />
 
 Passo a passo - Execução:
+
+* Baixe o projeto para seu computador
+* Certifique-se de que não tem nenhum outro container em execução na sua máquina. Caso contrário, poderá gerar conflito de portas e a aplicação não funcionará
+* Para fins de praticidade, recomendo utilizar o Visual Studio para a execução
+* Efetue Clean e em seguida rebuild do Projeto, antes de executar:
+  <img width="469" height="422" alt="image" src="https://github.com/user-attachments/assets/d5f81955-aa8e-4d58-84aa-60612d3883f2" />
+
+* Efetue Clean e em seguida rebuild do Projeto, antes de executar:
