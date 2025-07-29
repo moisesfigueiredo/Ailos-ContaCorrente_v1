@@ -36,3 +36,5 @@ Passo a passo - Execução:
 * Defina o arquivo docker-compose como Startup Projetc:
 * <img width="601" height="607" alt="image" src="https://github.com/user-attachments/assets/eb83b513-3942-4f00-9c9b-e757d1f47394" />
 
+* Clique no botão:
+  <img width="933" height="80" alt="image" src="https://github.com/user-attachments/assets/207c07af-e272-45b0-84b3-3260c2c4675f" />
