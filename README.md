@@ -37,10 +37,12 @@ Passo a passo - Execução:
 * Certifique-se de que não tem nenhum outro container em execução na sua máquina. Caso contrário, poderá gerar conflito de portas e a aplicação não funcionará
 * Para fins de praticidade, recomendo utilizar o Visual Studio para a execução
 * Efetue Clean e em seguida rebuild do Projeto, antes de executar:
+  
   <img width="469" height="422" alt="image" src="https://github.com/user-attachments/assets/d5f81955-aa8e-4d58-84aa-60612d3883f2" />
 
 * Defina o arquivo docker-compose como Startup Projetc:
-* <img width="601" height="607" alt="image" src="https://github.com/user-attachments/assets/eb83b513-3942-4f00-9c9b-e757d1f47394" />
+
+  <img width="601" height="607" alt="image" src="https://github.com/user-attachments/assets/eb83b513-3942-4f00-9c9b-e757d1f47394" />
 
 * Clique no botão:
   <img width="933" height="80" alt="image" src="https://github.com/user-attachments/assets/207c07af-e272-45b0-84b3-3260c2c4675f" />
