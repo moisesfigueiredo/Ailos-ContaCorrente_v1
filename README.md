@@ -14,6 +14,12 @@ Conforme pode ser verificado abaixo, a API foi desenvolvida utilizando Clean Cod
 
 <img width="465" height="817" alt="image" src="https://github.com/user-attachments/assets/07836f74-1220-4eaf-b2c3-995c57866cd1" />
 
+## Arquivo docker-compose
+A aplicação é multicontainer e levanta 2 aplicações: A API de ContaCorrente e um banco de dados Postgres, com o qual a API se comunica:
+
+<img width="719" height="791" alt="image" src="https://github.com/user-attachments/assets/7d2fdb9e-76b2-4e93-b4b8-b904fa881721" />
+
+
 <br />
 
 ## Pré-Requisitos
@@ -62,7 +68,7 @@ No banco de dados:
 
 5 - Guarde o token em algum editor de textos, pois ele será usado para se autenticar também na outra API (Transferência)
 
-6 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento de CRÉDITO, semelhante ao descrito:
+6 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento, semelhante ao descrito:
 <img width="1450" height="943" alt="image" src="https://github.com/user-attachments/assets/524260ae-222f-4b49-8c07-76167b3b699e" />
 
 No banco de dados:
@@ -71,15 +77,13 @@ No banco de dados:
 7 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será algo conforme abaixo:
 <img width="1438" height="888" alt="image" src="https://github.com/user-attachments/assets/249ec2d7-15f4-4cd5-b41f-282ad6515a9b" />
 
-8 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento de DÉBITO, semelhante ao descrito:
-<img width="1465" height="939" alt="image" src="https://github.com/user-attachments/assets/9a61035e-1b0d-4a7a-9a74-58a25e56271b" />
+8 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Esta Conta Corrente será usada para receber transferências a partir da API de Transferência:
+<img width="1455" height="1066" alt="image" src="https://github.com/user-attachments/assets/725f0953-5038-4745-b037-b9893475b71e" />
 
 No banco de dados:
-<img width="1037" height="188" alt="image" src="https://github.com/user-attachments/assets/c87e7d2a-3ed4-40c8-9501-74b4667df344" />
+<img width="1354" height="210" alt="image" src="https://github.com/user-attachments/assets/b88b9228-fd77-427a-8a07-436aefe3649f" />
 
-7 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será  conforme abaixo:
-<img width="1482" height="882" alt="image" src="https://github.com/user-attachments/assets/dbdf9166-472b-414e-add7-c26e68feb36c" />
-
+9 - Deste ponto em diante, você pode seguir para o repositório (https://github.com/moisesfigueiredo/Ailos-Transferencia_v1) e seguir as instruções para levantar a API de Transferência, que se comunica com esta API (Conta Corrente)
 
 
 
