@@ -14,6 +14,12 @@ Conforme pode ser verificado abaixo, a API foi desenvolvida utilizando Clean Cod
 
 <img width="465" height="817" alt="image" src="https://github.com/user-attachments/assets/07836f74-1220-4eaf-b2c3-995c57866cd1" />
 
+## Arquivo docker-compose
+A aplicação é multicontainer e levanta 2 aplicações: A API de ContaCorrente e um banco de dados Postgres, com o qual a API se comunica:
+
+<img width="719" height="791" alt="image" src="https://github.com/user-attachments/assets/7d2fdb9e-76b2-4e93-b4b8-b904fa881721" />
+
+
 <br />
 
 ## Pré-Requisitos
