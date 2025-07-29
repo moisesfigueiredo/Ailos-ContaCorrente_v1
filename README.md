@@ -38,3 +38,14 @@ Passo a passo - Execução:
 
 * Clique no botão:
   <img width="933" height="80" alt="image" src="https://github.com/user-attachments/assets/207c07af-e272-45b0-84b3-3260c2c4675f" />
+
+* Após alguns seguundos, você deverá ver uma tela como esta:
+  
+<br />
+
+## Testando a API
+
+1 - o primeiro passo é cadastrar uma Conta Corrente; para assim ter um login e poder se autenticar na API;
+
+2 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Os valores abaixo são meramente para testes. O resultado deverá ser conforme abaixo:
+<img width="1460" height="1065" alt="image" src="https://github.com/user-attachments/assets/92c2d924-b9a4-4e28-8908-b96e043f11bf" />
