@@ -48,7 +48,7 @@ Passo a passo - Execução:
   <img width="933" height="80" alt="image" src="https://github.com/user-attachments/assets/207c07af-e272-45b0-84b3-3260c2c4675f" />
 
 * Após alguns segundos, você deverá ver uma tela como esta:
-  
+  <img width="1548" height="718" alt="image" src="https://github.com/user-attachments/assets/03621798-08e7-4a05-9853-52de62ac71bb" />
 <br />
 
 ## Testando a API
