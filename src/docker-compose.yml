@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  postgres:
+    ports:
+      - '5432:5432'
+    restart: always
+    container_name: ailo-contacorrente-postgresql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ailo-contacorrente-db
+    volumes:
+      - 'ailo-contacorrente-db-postgresql-volume:/var/lib/postgresql/data'
+    image: 'postgres:latest'
+    networks:
+      - ailos-shared-network
+  ailoscontacorrente.api:
+    image: ${DOCKER_REGISTRY-}ailoscontacorrenteapi
+    volumes:
+      - 'api-volume:/var/www/html'
+    build:
+      context: .
+      dockerfile: AilosContaCorrente.Api/Dockerfile
+    ports:
+      - '8090:80'
+      - '5046:443'
+      - '80:8080'
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    restart: always 
+    container_name: ailos-contacorrente-api
+    depends_on:
+      - 'postgres'
+    networks:
+      - ailos-shared-network
+volumes:
+  ailo-contacorrente-db-postgresql-volume:
+  api-volume:
+
+networks:
+  ailos-shared-network:
+    external: true

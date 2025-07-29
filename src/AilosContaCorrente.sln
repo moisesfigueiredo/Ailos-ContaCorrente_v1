@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.Domain", "AilosContaCorrente.Domain\AilosContaCorrente.Domain.csproj", "{6C9D4788-09B6-4935-98B9-D684E59D6A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.PostgresDB", "AilosContaCorrente.PostgresDB\AilosContaCorrente.PostgresDB.csproj", "{D5446FCA-0EDE-4BD5-8614-D91BB69831CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.Api", "AilosContaCorrente.Api\AilosContaCorrente.Api.csproj", "{6A47E4EB-505E-41BD-906D-4986826D5083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.Application", "AilosContaCorrente.Application\AilosContaCorrente.Application.csproj", "{E4EAD074-C8BD-402C-88E2-5A06178C29F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.Tests", "AilosContaCorrente.Tests\AilosContaCorrente.Tests.csproj", "{0F04DDEE-9100-4C14-958A-62A2D4D882AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilosContaCorrente.IoC", "AilosContaCorrente.IoC\AilosContaCorrente.IoC.csproj", "{0687385C-7C26-7879-0A20-C9C8AB90374B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C9D4788-09B6-4935-98B9-D684E59D6A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9D4788-09B6-4935-98B9-D684E59D6A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9D4788-09B6-4935-98B9-D684E59D6A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9D4788-09B6-4935-98B9-D684E59D6A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5446FCA-0EDE-4BD5-8614-D91BB69831CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5446FCA-0EDE-4BD5-8614-D91BB69831CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5446FCA-0EDE-4BD5-8614-D91BB69831CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5446FCA-0EDE-4BD5-8614-D91BB69831CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A47E4EB-505E-41BD-906D-4986826D5083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A47E4EB-505E-41BD-906D-4986826D5083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A47E4EB-505E-41BD-906D-4986826D5083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A47E4EB-505E-41BD-906D-4986826D5083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EAD074-C8BD-402C-88E2-5A06178C29F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EAD074-C8BD-402C-88E2-5A06178C29F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EAD074-C8BD-402C-88E2-5A06178C29F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EAD074-C8BD-402C-88E2-5A06178C29F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F04DDEE-9100-4C14-958A-62A2D4D882AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F04DDEE-9100-4C14-958A-62A2D4D882AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F04DDEE-9100-4C14-958A-62A2D4D882AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F04DDEE-9100-4C14-958A-62A2D4D882AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0687385C-7C26-7879-0A20-C9C8AB90374B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0687385C-7C26-7879-0A20-C9C8AB90374B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0687385C-7C26-7879-0A20-C9C8AB90374B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0687385C-7C26-7879-0A20-C9C8AB90374B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2F81C8E-1ACE-4A65-81D2-64BC3A0F637B}
+	EndGlobalSection
+EndGlobal
