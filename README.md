@@ -73,25 +73,28 @@ No banco de dados:
 6 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento de CRÉDITO, semelhante ao descrito:
 <img width="1450" height="943" alt="image" src="https://github.com/user-attachments/assets/524260ae-222f-4b49-8c07-76167b3b699e" />
 
+7 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será algo conforme abaixo:
+<img width="1438" height="888" alt="image" src="https://github.com/user-attachments/assets/249ec2d7-15f4-4cd5-b41f-282ad6515a9b" />
+
 No banco de dados:
 <img width="1198" height="213" alt="image" src="https://github.com/user-attachments/assets/b6b50c3b-a5f2-4f96-be37-08b863ed4bee" />
 
-7 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento de DÉBITO, semelhante ao descrito:
+8 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento de DÉBITO, semelhante ao descrito:
 <img width="1454" height="939" alt="image" src="https://github.com/user-attachments/assets/468cac64-7503-4ed1-b489-8585a1029aad" />
+
+9 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será algo conforme abaixo:
+<img width="1459" height="891" alt="image" src="https://github.com/user-attachments/assets/f6840859-c8bc-4103-821a-10b4fdd291de" />
 
 No banco de dados:
 <img width="1008" height="195" alt="image" src="https://github.com/user-attachments/assets/6ee9a3bd-f2aa-4591-afe4-8f4531531916" />
 
-8 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será algo conforme abaixo:
-<img width="1438" height="888" alt="image" src="https://github.com/user-attachments/assets/249ec2d7-15f4-4cd5-b41f-282ad6515a9b" />
-
-9 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Esta Conta Corrente será usada para receber transferências a partir da API de Transferência:
+10 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Esta Conta Corrente será usada para receber transferências a partir da API de Transferência:
 <img width="1455" height="1066" alt="image" src="https://github.com/user-attachments/assets/725f0953-5038-4745-b037-b9893475b71e" />
 
 No banco de dados:
 <img width="1354" height="210" alt="image" src="https://github.com/user-attachments/assets/b88b9228-fd77-427a-8a07-436aefe3649f" />
 
-10 - Deste ponto em diante, você pode seguir para o repositório (https://github.com/moisesfigueiredo/Ailos-Transferencia_v1) e seguir as instruções para levantar a API de Transferência, que se comunica com esta API (Conta Corrente)
+11 - Deste ponto em diante, você pode seguir para o repositório (https://github.com/moisesfigueiredo/Ailos-Transferencia_v1) e seguir as instruções para levantar a API de Transferência, que se comunica com esta API (Conta Corrente)
 
 
 
