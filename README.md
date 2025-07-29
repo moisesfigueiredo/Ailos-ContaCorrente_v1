@@ -49,3 +49,18 @@ Passo a passo - Execução:
 
 2 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Os valores abaixo são meramente para testes. O resultado deverá ser conforme abaixo:
 <img width="1460" height="1065" alt="image" src="https://github.com/user-attachments/assets/92c2d924-b9a4-4e28-8908-b96e043f11bf" />
+
+No banco de dados:
+<img width="1272" height="234" alt="image" src="https://github.com/user-attachments/assets/ffb362ee-85a8-43cf-a32e-a76f7096f8ef" />
+
+
+3 - Vá até o endpoint "/ContaCorrente/Logar" e informe os dados de acesso, conforme cadastrados no passo anterior. Você deverá receber o token JWT:
+<img width="1590" height="923" alt="image" src="https://github.com/user-attachments/assets/4c4bc847-ef46-410a-a6f9-71bef0109fd8" />
+
+4 - Vá até "Authorize" e se autentique na API, informando o token recebido no passo anterior:
+<img width="1469" height="340" alt="image" src="https://github.com/user-attachments/assets/b0a5f415-e4a3-4b3e-a037-c0f68ae71037" />
+
+5 - Guarde o token em algum editor de textos, pois ele será usado para se autenticar também na outra API (Transferência)
+
+
+
