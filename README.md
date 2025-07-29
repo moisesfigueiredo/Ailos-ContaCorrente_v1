@@ -33,4 +33,6 @@ Passo a passo - Execução:
 * Efetue Clean e em seguida rebuild do Projeto, antes de executar:
   <img width="469" height="422" alt="image" src="https://github.com/user-attachments/assets/d5f81955-aa8e-4d58-84aa-60612d3883f2" />
 
-* Efetue Clean e em seguida rebuild do Projeto, antes de executar:
+* Defina o arquivo docker-compose como Startup Projetc:
+* <img width="601" height="607" alt="image" src="https://github.com/user-attachments/assets/eb83b513-3942-4f00-9c9b-e757d1f47394" />
+
