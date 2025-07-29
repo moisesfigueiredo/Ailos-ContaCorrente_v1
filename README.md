@@ -62,5 +62,15 @@ No banco de dados:
 
 5 - Guarde o token em algum editor de textos, pois ele será usado para se autenticar também na outra API (Transferência)
 
+6 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento, semelhante ao descrito:
+<img width="1450" height="943" alt="image" src="https://github.com/user-attachments/assets/524260ae-222f-4b49-8c07-76167b3b699e" />
+
+No banco de dados:
+<img width="1198" height="213" alt="image" src="https://github.com/user-attachments/assets/b6b50c3b-a5f2-4f96-be37-08b863ed4bee" />
+
+
+
+
+
 
 
