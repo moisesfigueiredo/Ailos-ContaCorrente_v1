@@ -45,7 +45,7 @@ Passo a passo - Execução:
 * Clique no botão:
   <img width="933" height="80" alt="image" src="https://github.com/user-attachments/assets/207c07af-e272-45b0-84b3-3260c2c4675f" />
 
-* Após alguns seguundos, você deverá ver uma tela como esta:
+* Após alguns segundos, você deverá ver uma tela como esta:
   
 <br />
 
