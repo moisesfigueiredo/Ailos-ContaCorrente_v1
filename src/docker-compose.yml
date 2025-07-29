@@ -5,7 +5,7 @@ services:
     ports:
       - '5432:5432'
     restart: always
-    container_name: ailo-contacorrente-postgresql
+    container_name: ailo-contacorrente-db-postgresql
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres

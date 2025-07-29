@@ -22,6 +22,8 @@ namespace AilosContaCorrente.Application.Members.Queries
             try
             {
                 var conta = await _contaCorrenteRepository.GetFirst(c => c.Numero == request.Numero);
+                decimal totalCredito = 0;
+                decimal totalDebito = 0;
 
                 if (conta == null)
                 {
@@ -37,11 +39,17 @@ namespace AilosContaCorrente.Application.Members.Queries
 
                 var movimentos = await _movimentoRepository.GetAll(m => m.ContaCorrenteId == conta.Id);
 
+                if (movimentos.Any())
+                {
+                    totalCredito = movimentos.Where(m => m.TipoMovimento == "C").Sum(m => m.Valor);
+                    totalDebito = movimentos.Where(m => m.TipoMovimento == "D").Sum(m => m.Valor);
+                }
+
                 result.Data = new SaldoDto
                 {
                     Numero = conta.Numero,
                     Nome = conta.Nome,
-                    SaldoAtual = movimentos.Any() ? (movimentos.Where(v => v.TipoMovimento == "C").Sum(v => v.Valor) - movimentos.Where(v => v.TipoMovimento == "D").Sum(v => v.Valor)) : 0
+                    SaldoAtual = totalCredito - totalDebito,
                 };
             }
             catch (Exception ex)
